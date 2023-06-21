@@ -1,0 +1,41 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e27373;
+    color: #ccc;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #9b3838;
+    color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #b62a2a;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #aa2a2a;
+}
+
+tr:hover {
+    background-color: #ce3838;
+}
